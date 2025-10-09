@@ -47,6 +47,7 @@
 </head>
 <body>
   <div class="container">
+    <!-- Top header with your name -->
     <header>
       <div class="brand">
         <div class="avatar" aria-hidden="true"></div>
@@ -62,6 +63,7 @@
       </nav>
     </header>
 
+    <!-- About / Hero -->
     <section id="about" class="hero">
       <div class="card">
         <span class="pill">Available for QA / Data roles</span>
@@ -87,16 +89,19 @@
           <li>Recruiters get view-only links to interact with visuals; downloading is disabled.</li>
           <li>Automation/QA code lives in private repos—access on request.</li>
         </ol>
-        <div class="note">Prefer a live walkthrough? Ask for a 10‑minute demo link.</div>
+        <div class="note">Prefer a live walkthrough? Ask for a 10-minute demo link.</div>
       </div>
     </section>
 
+    <!-- Projects -->
     <section id="projects" class="card" style="margin-top:22px">
       <h2 style="margin:4px 0 14px">Featured Projects</h2>
       <div class="grid">
+
+        <!-- Power BI card (placeholder links) -->
         <article class="proj card">
           <h3>Box Office Analytics – Power BI</h3>
-          <p>End‑to‑end dashboard exploring budget, opening weekend, and gross revenue relationships with drill‑downs and what‑if analysis.</p>
+          <p>End-to-end dashboard exploring budget, opening weekend, and gross revenue relationships with drill-downs and what-if analysis.</p>
           <div class="tags">
             <span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Excel / Power Query</span>
           </div>
@@ -105,8 +110,10 @@
             <a class="btn ghost" href="#contact">Request Code Access</a>
           </div>
         </article>
+
+        <!-- Test Automation card (placeholder links) -->
         <article class="proj card">
-          <h3>E‑commerce Test Automation Suite</h3>
+          <h3>E-commerce Test Automation Suite</h3>
           <p>Hybrid test framework covering login, cart, checkout, and API verification with CI-ready reporting.</p>
           <div class="tags">
             <span class="tag">Selenium</span><span class="tag">Python/Java</span><span class="tag">Postman</span>
@@ -116,6 +123,8 @@
             <a class="btn ghost" href="#contact">Request Repo Access</a>
           </div>
         </article>
+
+        <!-- Whatfix card (placeholder links) -->
         <article class="proj card">
           <h3>Whatfix: Create Purchase Requisition</h3>
           <p>Guided workflow for SAP users with smart tips, validation, and completion rules; includes analytics snapshot.</p>
@@ -127,14 +136,35 @@
             <a class="btn ghost" href="#contact">Request Assets</a>
           </div>
         </article>
+
+        <!-- ✅ Elon Store Excel Project (added properly inside the grid) -->
+        <article class="proj card">
+          <h3>Elon Store Data Analysis Dashboard (Excel)</h3>
+          <p>Interactive Excel dashboard with KPIs, pivot tables, and charts to surface sales trends and store performance.</p>
+          <img src="dashboard.png" alt="Excel Dashboard Screenshot" style="width:100%; border-radius:10px; margin:8px 0 12px; border:1px solid rgba(148,163,184,.2);">
+          <div class="tags">
+            <span class="tag">Excel</span>
+            <span class="tag">Data Analysis</span>
+            <span class="tag">Dashboard</span>
+          </div>
+          <div class="cta" style="margin-top:12px">
+            <a class="btn"
+               href="https://raw.githubusercontent.com/ShazeedaSulthanaSyeda/ShazeedaSulthanaSyeda.github.io/main/elon-dashboard.xlsx"
+               download>
+              📂 Download Excel Dashboard
+            </a>
+          </div>
+        </article>
+
       </div>
     </section>
 
+    <!-- Contact -->
     <section id="contact" class="card" style="margin-top:22px">
       <h2 style="margin:4px 0 14px">Contact & Access</h2>
-      <p class="muted">For interactive demos or private code access, send a note with the project name you’d like to see. I’ll grant view‑only permissions.</p>
+      <p class="muted">For interactive demos or private code access, send a note with the project name you’d like to see. I’ll grant view-only permissions.</p>
       <div class="cta">
-        <a class="btn" href="mailto:ss5hv@umsystem.edu?subject=Portfolio%20Access%20Request&body=Hi%20Shazeeda%2C%20I%27d%20like%20to%20view%20your%20%5Bproject%20name%5D.%20Please%20grant%20access.%20Thanks!">Email Me</a>
+        <a class="btn" href="mailto:shazeedasulthanasyeda@gmail.com?subject=Portfolio%20Access%20Request&body=Hi%20Shazeeda%2C%20I%27d%20like%20to%20view%20your%20%5Bproject%20name%5D.%20Please%20grant%20access.%20Thanks!">Email Me</a>
         <a class="btn ghost" target="_blank" href="https://www.linkedin.com/">LinkedIn</a>
       </div>
       <p class="note">Tip: keep code in private GitHub repositories and invite recruiters as collaborators only when needed.</p>
@@ -149,37 +179,9 @@
     document.getElementById('y').textContent = new Date().getFullYear();
   </script>
 </body>
-  <section id="projects">
-  <h2>My Projects</h2>
-
-  <div class="project" style="border:1px solid #ddd; border-radius:10px; padding:20px; margin:20px 0; max-width:700px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
-    
-    <!-- Project Name -->
-    <h3 style="margin-top:0;">Elon Store Data Analysis Dashboard</h3>
-    
-    <!-- Project Image -->
-    <img src="dashboard.png" alt="Excel Dashboard Screenshot" style="max-width:100%; border-radius:8px; margin-bottom:15px;">
-    
-    <!-- About Project -->
-    <p>
-      This Excel dashboard project analyses sales data to uncover trends and insights.
-      It includes pivot tables, charts, and KPIs to visualise store performance and 
-      support decision-making.
-    </p>
-    
-   <a href="https://github.com/ShazeedaSulthanaSyeda/ShazeedaSulthanaSyeda.github.io/raw/main/elon-dashboard.xlsx"
-   download
-   style="display:inline-block; padding:10px 20px; background:#007bff; color:#fff; text-decoration:none; border-radius:5px; margin-top:10px;">
-  📂 Download Excel Dashboard
-</a>
-
-
-
-
-  </div>
-</section>
-
 </html>
+
+
 
 
 
